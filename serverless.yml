@@ -4,9 +4,6 @@ provider:
   runtime: python3.7
   region: eu-central-1
 
-custom:
-  pythonRequirements:
-    dockerizePip: true
 
 package:
   individually: false
@@ -16,12 +13,9 @@ package:
     - node_modules/**
 
 functions:
-  get_joke:
-    handler: handler.get_joke
+  hello_world:
+    handler: handler.hello_world
     events:
       - http:
-          path: joke
+          path: hello
           method: get
-
-plugins:
-  - serverless-python-requirements
