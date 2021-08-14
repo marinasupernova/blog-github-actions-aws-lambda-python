@@ -3,12 +3,12 @@ import json
 
 def hello_world(event, context):
     output = []
-    rows = ["Проверка 1",
-        "Проверка 2",
-        "Проверка 3",
-        "Проверка 1",
-        "Проверка 3",
-        "Проверка 2",
+    rows = ["Proverka 1",
+        "Proverka 2",
+        "Proverka 3",
+        "Proverka 1",
+        "Proverka 3",
+        "Proverka 2",
         "Hello",
         "world",
         "Hello world",
