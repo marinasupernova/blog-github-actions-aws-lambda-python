@@ -1,0 +1,16 @@
+# Worklog
+- created a repository with hello world function
+- created an account on AWS cloud 
+- sorted out how Lambda service works 
+- created Lambda function with Hello world 
+- connected API Gateway from Lambda service web interface
+- read about Github Actions 
+- found a solution on Internet(https://github.com/philschmid/blog-github-actions-aws-lambda-python) and forked it 
+- installed node.js and npm (for serverless tool)
+- created AWS access keys to my account 
+- installed AWSCLI (to configure access keys locally)
+- updated the code of existing solution 
+- updated serverless npm package (the old one didn’t work)
+- deployed Lambda (https://36l0aq62q7.execute-api.eu-central-1.amazonaws.com/dev/hello)
+- added access keys to Github repository
+- pushed the code to Github repository and checked that Github Actions work 
